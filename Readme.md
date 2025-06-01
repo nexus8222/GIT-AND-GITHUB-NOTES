@@ -30,3 +30,6 @@ Follow this: https://git-scm.com/downloads/mac
 Pull requests are welcome. 
 
 
+
+
+## A big Thanks To chai&code[@hiteshchoudhary](https://github.com/hiteshchoudhary) this all i learnt is because of Him And Notes of mine are originated from his documentation and some of my research.
