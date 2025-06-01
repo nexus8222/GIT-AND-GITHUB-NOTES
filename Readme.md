@@ -8,6 +8,8 @@ To work with Git you can install the git from here:
 - For linux user:
 ```bash
 sudo apt update && sudo apt full-upgrade
+sudo apt install git -y
+
 ```
 
 Or you can follow official Docs from here:  https://git-scm.com/downloads/linux
