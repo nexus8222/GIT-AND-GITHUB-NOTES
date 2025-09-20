@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local File Server</title>
+</head>
+<body>
+    <h2>Upload Files/Folders (ZIP for folders)</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" multiple>
+        <input type="submit" value="Upload">
+    </form>
+
+    <h2>Available Files/Folders</h2>
+    <ul>
+        {% for item in items %}
+        <li>
+            <a href="{{ url_for('download', name=item) }}">{{ item }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
